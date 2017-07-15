@@ -17,7 +17,7 @@ import logic.Schiffeversenken;
 
 public class Client extends Peer {
 	private final String ipString;
-	//TEST
+
 	public Client(Schiffeversenken ss, String ipString) {
 		super(ss);
 		this.ipString = ipString;
