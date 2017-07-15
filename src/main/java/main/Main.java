@@ -13,7 +13,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		FXMLLoader loader = new FXMLLoader(Main.class.getResource("/resources/Schiffeversenken.fxml"));
+		FXMLLoader loader = new FXMLLoader(Main.class.getResource("/fxml/Schiffeversenken.fxml"));
 		Parent root = loader.load();
 		new Schiffeversenken(loader.getController());
 
@@ -21,7 +21,7 @@ public class Main extends Application {
 		stage.setScene(scene);
 		stage.setMinHeight(700);
 		stage.setMinWidth(1200);
-		stage.getIcons().add(new Image("resources/icon.jpg"));
+		stage.getIcons().add(new Image("/images/icon.jpg"));
 		stage.setTitle("Schiffeversenken");
 		stage.setOnCloseRequest(e -> {
 			Platform.exit();

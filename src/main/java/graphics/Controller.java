@@ -34,7 +34,7 @@ public class Controller implements Initializable{
 	
 	private Schiffeversenken ss;
 	private Thread spieldauerThread;
-	private final Image icon = new Image("resources/images/icon.jpg");
+	private final Image icon = new Image("/images/icon.jpg");
 	
 	@FXML private Label verbindungLabel;
 	@FXML private Label ipLabel;

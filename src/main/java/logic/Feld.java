@@ -4,7 +4,8 @@ import javafx.scene.image.Image;
 
 public enum Feld {
 	
-	SCHIFF("resources/images/schiff.png"), TREFFER("logic/treffer.png"), NIETE("logic/niete.png"), WASSER("logic/wasser.png");
+	SCHIFF("/images/schiff.png"), TREFFER("/images/treffer.png"), 
+	NIETE("/images/niete.png"), WASSER("/images/wasser.png");
 
 		   private final Image image;
 
